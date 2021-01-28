@@ -1,0 +1,27 @@
+body {
+    background-image: url("../assets/cool-background.svg");
+    background-color: #0e146b;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color: lightgrey;
+    font-family: 'Poppins', sans-serif;
+
+}
+.arrow {
+    font-size: 24pt;
+    font-weight: bold;
+}
+.p-red {
+    color: indianred;
+}
+.icons {
+    font-size: 36pt;
+    text-decoration: none;
+    color: lightgray;
+    transition: 0.2s;
+}
+.icons:hover {
+    color: indianred;
+}

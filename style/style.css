@@ -1,27 +1,52 @@
 body {
     background-image: url("../assets/cool-background.svg");
     background-color: #0e146b;
-    background-size: 100%;
+    background-size: 120%;
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
     color: lightgrey;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 
 }
 .arrow {
     font-size: 24pt;
     font-weight: bold;
 }
-.p-red {
-    color: indianred;
+.p-arrow {
+    color: #333333;
+    
 }
 .icons {
     font-size: 36pt;
     text-decoration: none;
     color: lightgray;
     transition: 0.2s;
+    align-self: center;
 }
 .icons:hover {
-    color: indianred;
+    color: #333333;
+}
+.directories {
+    height: auto;
+    border: solid black 1px;
+    border-radius: .5em .5em .5em .5em;
+    overflow-wrap: break-word;
+}
+.dir-img {
+    width: 150px;
+    height: 100px;
+}
+.tm {
+    background-color: #32462b;
+}
+
+@media only screen and (max-width: 800px){
+    body {
+        background-image: none;
+    }
+    .directories {
+        flex-direction: column;
+    }
 }
